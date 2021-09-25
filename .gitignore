@@ -1,0 +1,20 @@
+# ignore everything, whitelist instead: Unity has too many files
+*
+
+!.gitignore
+!.gitattributes
+!README.md
+
+# must whitelist progressively farther,
+# git will not mess with any subdirectory until its parent is included
+!ProjectSettings/
+!ProjectSettings/**
+
+!Assets/
+!Assets/Scripts/
+!Assets/Scripts/**
+!Assets/Scenes/
+!Assets/Scenes/**
+
+# finally, do not include any meta files
+*.meta
