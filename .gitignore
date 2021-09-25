@@ -15,6 +15,7 @@
 !Assets/Scripts/**
 !Assets/Scenes/
 !Assets/Scenes/**
+!AppImages/
 
 # finally, do not include any meta files
 *.meta
